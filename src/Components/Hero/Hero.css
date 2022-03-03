@@ -1,0 +1,55 @@
+
+.hero{
+  width:100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap:20px;
+  word-spacing: 10px;
+}
+#inputs{
+  width:60%;
+  height:60px;
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+}
+.hero>div:nth-child(1){
+   display: flex;
+   font-size:48px;
+   flex-direction: row;
+}
+.hero>div:nth-child(2){
+  display: flex;
+  flex-direction: row;
+
+}
+button{
+  align-self:flex-end;
+  display:flex;
+}
+img{
+  display: flex;
+  align-self:flex-start;
+  width:30px;
+  height:30px;
+}
+
+input{
+  width:calc(100%-100px);
+  height: 100%;
+}
+button{
+  width:100px;
+  height: 100%;
+  color:white;
+  background-color: #ec8a23;
+  border:none;
+}
+
+
+
+
+
